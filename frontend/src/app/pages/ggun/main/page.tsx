@@ -4,7 +4,8 @@ import CenterCom from "@/components/common/module/ggun/main/centerCom"
 import Header from "@/components/common/module/ggun/main/header"
 import LeftCom from "@/components/common/module/ggun/main/leftCom"
 import RightCom from "@/components/common/module/ggun/main/rightCom"
-import TopCom from "@/components/common/module/ggun/main/topCom"
+
+import KospiCom from "@/components/common/module/ggun/main/kospi"
 
 export default function Main() {
     return (<>
@@ -22,7 +23,7 @@ export default function Main() {
             <div className="flex flex-col">
                 <div className="flex flex-row">
                     <div className="animate-[TransTopTest_1.25s_ease-in-out_forwards] delay-75">
-                        <TopCom></TopCom>
+                        <KospiCom></KospiCom>
                     </div>
                     <div className="animate-[TransRightTest_1.5s_ease-in-out_forwards]">
                         <RightCom></RightCom>
