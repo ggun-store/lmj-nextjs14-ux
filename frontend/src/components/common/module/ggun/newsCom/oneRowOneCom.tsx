@@ -1,8 +1,8 @@
 import NewImageCom from "./newsImageCom";
 
-export default function OneRowOneCom({ back, title, text }: any) {
+export default function OneRowOneCom({ back, title, text,url }: any) {
     return (<>
-        <a href="" className="flex flex-row">
+        <a href={url} className="flex flex-row">
             <div className="overflow-hidden h-[7rem] w-[10rem] rounded-[16px]">
                 <NewImageCom width="w-[10rem]" high="h-[7rem]" back={back}></NewImageCom>
             </div>
